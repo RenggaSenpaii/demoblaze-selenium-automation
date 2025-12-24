@@ -45,21 +45,27 @@ Automation difokuskan pada fitur-fitur kritikal aplikasi, bukan seluruh skenario
 ## 📁 Project Structure
 demoblaze-selenium-automation
 │
-├── src/test/java
-│ └── com/renggauas/testing/automation
-│ ├── pages
-│ │ ├── BasePage.java
-│ │ ├── LoginPage.java
-│ │ ├── HomePage.java
-│ │ └── CartPage.java
-│ │
-│ └── tests
-│ ├── BaseTest.java
-│ ├── LoginTest.java
-│ └── AddToCartTest.java
+├── src
+│   └── test
+│       └── java
+│           └── com
+│               └── renggauas
+│                   └── testing
+│                       └── automation
+│                           ├── pages
+│                           │   ├── BasePage.java
+│                           │   ├── LoginPage.java
+│                           │   ├── HomePage.java
+│                           │   └── CartPage.java
+│                           │
+│                           └── tests
+│                               ├── BaseTest.java
+│                               ├── LoginTest.java
+│                               └── AddToCartTest.java
 │
 ├── pom.xml
 └── README.md
+
 
 
 ---
@@ -88,7 +94,8 @@ demoblaze-selenium-automation
 ---
 
 ## 👨‍💻 Author
-- **Name**: Rengga
+- **Name**: Rengga Lahani
+- **Kelas**: RKS 3B
 - **Course**: Praktikum Pengujian Perangkat Lunak (PPPL)
 - **Type**: UAS Project
 
