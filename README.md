@@ -43,28 +43,23 @@ Automation difokuskan pada fitur-fitur kritikal aplikasi, bukan seluruh skenario
 ---
 
 ## 📁 Project Structure
+
+```text
 demoblaze-selenium-automation
-│
-├── src
-│   └── test
-│       └── java
-│           └── com
-│               └── renggauas
-│                   └── testing
-│                       └── automation
-│                           ├── pages
-│                           │   ├── BasePage.java
-│                           │   ├── LoginPage.java
-│                           │   ├── HomePage.java
-│                           │   └── CartPage.java
-│                           │
-│                           └── tests
-│                               ├── BaseTest.java
-│                               ├── LoginTest.java
-│                               └── AddToCartTest.java
-│
-├── pom.xml
-└── README.md
+└── src
+    └── test
+        └── java
+            └── com.renggauas.testing.automation
+                ├── pages
+                │   ├── BasePage.java
+                │   ├── LoginPage.java
+                │   ├── HomePage.java
+                │   └── CartPage.java
+                └── tests
+                    ├── BaseTest.java
+                    ├── LoginTest.java
+                    └── AddToCartTest.java
+
 
 
 
